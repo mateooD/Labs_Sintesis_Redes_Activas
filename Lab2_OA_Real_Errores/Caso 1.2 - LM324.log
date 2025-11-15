@@ -1,0 +1,12 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\franc\Documents\LTspice\Sintesis 2025\TP2\Caso 1.2 - LM324.asc
+Start Time: Fri Nov 14 21:00:30 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1.87011e-09 to 5.87011e-09
+Total elapsed time: 0.195 seconds.
+
