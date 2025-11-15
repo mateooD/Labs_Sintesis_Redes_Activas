@@ -1,0 +1,22 @@
+* C:\Users\franc\Documents\LTspice\Sintesis 2025\TP2\Caso 1.2 - LM741.asc
+R1 N001 N003 {R}
+R2 N001 N004 {R}
+V1 V1 0 SINE(0 10m 1000)
+V2 P001 0 0
+Vss 0 N006 {V}
+Vcc N005 0 {V}
+Ri1 N003 V1 {Ri}
+Ri2 N004 P001 {Ri}
+Ra N002 N001 {RT}
+Rc Vo N002 {RT}
+Rb 0 N002 {RB}
+XU1 0 N001 N005 N006 Vo lm741_R
+.tran .005
+.param Ri=100000
+.param R=1000000
+.param RT=220000 RB=1635
+.param V=10
+* Caso 2: Ri= 100k; LM741
+.lib lm741_r.txt
+.backanno
+.end
