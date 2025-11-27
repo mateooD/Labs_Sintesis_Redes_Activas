@@ -1,6 +1,5 @@
 Circuit: * C:\users\mateod\My Documents\Labs_Sintesis_Redes_Activas\Lab3_Diseño_Amp_Comp\2)VFA-CFA\amp_vfa_cfa.asc
 
-WARNING: Less than two connections to node N005.  This node is used by RF.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -18,32 +17,109 @@ Gmin = 1.07828
 vernier = 0.00195313
 vernier = 0.000976563
 vernier = 0.000488281
-Gmin = 1.07644
+Gmin = 0
 Gmin = 0
 Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
+Source Step = 28.0303%
+Source Step = 35.6061%
+Source Step = 43.1818%
+Source Step = 50.7576%
+Source Step = 58.3333%
+Source Step = 65.9091%
+vernier = 0.375
+Source Step = 77.2727%
+Source Step = 88.6364%
+vernier = 0.09375
+Source Step = 88.0904%
+Source Step = 88.1348%
+Source Step = 88.1792%
+Source Step = 88.2235%
+Source Step = 88.2679%
+Source Step = 88.3123%
+vernier = 0.00219727
+Source Step = 88.3767%
+Source Step = 88.4433%
+Source Step = 88.5099%
+Source Step = 88.5764%
+Source Step = 88.643%
+vernier = 0.0032959
+Source Step = 88.7362%
+Source Step = 88.8361%
+Source Step = 88.936%
+Source Step = 89.0359%
+Source Step = 89.1357%
+vernier = 0.00494385
+Source Step = 89.2706%
+Source Step = 89.4204%
+Source Step = 89.5702%
+Source Step = 89.72%
+Source Step = 89.8698%
+vernier = 0.00741577
+Source Step = 90.0646%
+Source Step = 90.1151%
+Source Step = 90.1713%
+Source Step = 90.2275%
+Source Step = 90.2837%
+Source Step = 90.3399%
+Source Step = 90.396%
+vernier = 0.00278091
+Source Step = 90.4747%
+Source Step = 90.559%
+Source Step = 90.6432%
+Source Step = 90.7275%
+Source Step = 90.8118%
+vernier = 0.00417137
+Source Step = 90.9255%
+Source Step = 91.052%
+Source Step = 91.1784%
+Source Step = 91.3048%
+Source Step = 91.4312%
+vernier = 0.00625706
+Source Step = 91.5955%
+Source Step = 91.7851%
+Source Step = 91.9747%
+Source Step = 92.1643%
+Source Step = 92.3539%
+vernier = 0.00938559
+Source Step = 92.5909%
+Source Step = 92.8753%
+Source Step = 93.1598%
+Source Step = 93.4442%
+Source Step = 93.7286%
+vernier = 0.0140784
+Source Step = 94.0699%
+Source Step = 94.4965%
+Source Step = 94.9231%
+Source Step = 95.3497%
+Source Step = 95.7763%
+vernier = 0.0211176
+Source Step = 96.267%
+Source Step = 96.9069%
+Source Step = 97.5468%
+Source Step = 98.1867%
+Source Step = 98.8267%
+vernier = 0.0316764
+Source Step = 99.5306%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Sat Nov 22 13:43:16 2025
-Total elapsed time: 0.553 seconds.
+Date: Thu Nov 27 12:39:05 2025
+Total elapsed time: 0.842 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 2511
+totiter = 6555
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 100
-fillins = 164
+matrix size = 91
+fillins = 186
 solver = Normal
-Matrix Compiler1:     633 opcodes
-Matrix Compiler2: 11.23 KB object code size  1.7/2.4/[0.9]
+Matrix Compiler1:     997 opcodes
+Matrix Compiler2: 11.47 KB object code size  2.0/2.5/[0.8]
 

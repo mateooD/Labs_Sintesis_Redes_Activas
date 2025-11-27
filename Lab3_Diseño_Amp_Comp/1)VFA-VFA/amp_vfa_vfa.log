@@ -1,20 +1,90 @@
 Circuit: * C:\users\mateod\My Documents\Labs_Sintesis_Redes_Activas\Lab3_Diseño_Amp_Comp\1)VFA-VFA\amp_vfa_vfa.asc
 
-Direct Newton iteration for .op point succeeded.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 8.35967e-007
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0104167
+Gmin = 7.85541e-007
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00347222
+Gmin = 7.80953e-007
+vernier = 0.00462963
+vernier = 0.00617283
+Gmin = 7.72344e-007
+vernier = 0.00823044
+Gmin = 7.58576e-007
+vernier = 0.0109739
+vernier = 0.0146319
+Gmin = 7.36563e-007
+vernier = 0.0195092
+vernier = 0.0260122
+Gmin = 7.03006e-007
+vernier = 0.034683
+Gmin = 6.51834e-007
+vernier = 0.046244
+vernier = 0.0616586
+Gmin = 5.76109e-007
+vernier = 0.0822114
+vernier = 0.109615
+Gmin = 4.74046e-007
+vernier = 0.0548076
+vernier = 0.0274038
+vernier = 0.0137019
+vernier = 0.00685095
+vernier = 0.00342548
+vernier = 0.00171274
+vernier = 0.000856369
+vernier = 0.000428184
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
 
-Date: Fri Nov 21 15:34:47 2025
-Total elapsed time: 0.151 seconds.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 18.9394%
+Source Step = 26.5152%
+Source Step = 34.0909%
+Source Step = 41.6667%
+Source Step = 49.2424%
+vernier = 0.375
+Source Step = 58.3333%
+Source Step = 69.697%
+Source Step = 81.0606%
+Source Step = 92.4242%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Thu Nov 27 11:54:02 2025
+Total elapsed time: 17.564 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 13
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 70
-fillins = 103
+method = modified trap
+totiter = 597006
+traniter = 593675
+tranpoints = 178232
+accept = 122195
+rejected = 56037
+matrix size = 54
+fillins = 69
 solver = Normal
-Matrix Compiler1:     497 opcodes
-Matrix Compiler2: 7.63 KB object code size
+Thread vector: 44.5/18.0[2] 5.4/4.6[2] 3.7/5.4[1] 2.1/4.3[1]  2592/500
+Matrix Compiler1: 7.78 KB object code size  1.9/1.0/[0.6]
+Matrix Compiler2: off  [2.4]/2.7/2.6
+
