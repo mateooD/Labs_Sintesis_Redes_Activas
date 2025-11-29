@@ -1,13 +1,13 @@
-# 🎛️ Script: Optimizador de Circuitos con LM324
+# Script: Optimizador de Circuitos con LM324
 
-## 📝 Introducción
+## Introducción
 El archivo `OpAmp_Circuit_Optimizer.ipynb` es una herramienta interactiva desarrollada en Python destinada a automatizar el diseño y optimización de etapas amplificadoras utilizando el amplificador operacional de propósito general **LM324**.
 
 A diferencia de un cálculo puramente teórico, este script contempla las **limitaciones reales** del componente (tales como tensiones de *offset*, corrientes de *bias*, *Slew Rate* y rangos de saturación) para proponer diseños realizables con componentes comerciales.
 
 ---
 
-## 🎯 Objetivos y Funcionalidades
+## Objetivos y Funcionalidades
 El objetivo del script es facilitar la síntesis de circuitos amplificadores, permitiendo al usuario:
 - **Seleccionar topologías estándar:** Soporta configuraciones **No Inversora**, **Inversora**, **Sumador Inversor** y **Amplificador Diferencial**.
 - **Optimizar componentes:** Busca automáticamente en una base de datos de resistores estándar (series comerciales) para encontrar la mejor combinación que se ajuste a la ganancia deseada.
@@ -16,7 +16,7 @@ El objetivo del script es facilitar la síntesis de circuitos amplificadores, pe
 
 ---
 
-## ⚙️ Interfaz y Parámetros
+## Interfaz y Parámetros
 El script despliega una interfaz gráfica (GUI) basada en *widgets* que permite configurar:
 
 1.  **Configuración del Circuito:** Menú desplegable para elegir entre las 4 topologías soportadas.
@@ -29,7 +29,7 @@ El script despliega una interfaz gráfica (GUI) basada en *widgets* que permite 
 
 ---
 
-## 🛠️ Herramientas utilizadas
+## Herramientas utilizadas
 Este *notebook* integra varias librerías de Python para su funcionamiento:
 - **Ipywidgets:** Para la creación de la interfaz de usuario interactiva (botones, sliders, inputs numéricos) sin necesidad de editar código.
 - **NumPy:** Para el cálculo vectorial y búsqueda eficiente de combinaciones de resistencias.
@@ -38,7 +38,7 @@ Este *notebook* integra varias librerías de Python para su funcionamiento:
 
 ---
 
-## 📌 Resultados Esperados
+## Resultados Esperados
 Al ejecutar el botón **"CALCULAR Y DIBUJAR"**, el script entrega:
 - **Valores de Componentes:** Resistencias comerciales ($R_1, R_f, R_{comp}$) seleccionadas.
 - **Análisis de Error:** Cálculo del error porcentual de ganancia y la tensión de *offset* de salida esperada.
